@@ -1,0 +1,80 @@
+/*setear*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+ }
+ body {
+     background: rgb(255, 0, 119);
+     color: #fff;
+ } 
+ /*encabezado*/
+ header {
+    /* position: fixed;*/
+     text-align: right;
+ }
+ .columna1 {
+     text-align: center;
+     display: inline-block;
+     padding: 3rem 2rem 2rem 2rem ;
+     text-align: right;
+    
+ }
+ h1 {
+     font-size: 3rem;
+ }
+ /*primera imagen / primer section */
+img {
+    width: 100%;
+}
+/* section2 - about */
+.columna {
+    background: rgb(12, 161, 137);
+    padding-left: 33.333%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.about {
+    text-align: center;
+    width: 50%;
+    padding: 2%;
+    background: rgb(255, 0, 119);
+}
+.columna-1 {
+    /*margin-left: 20%;*/
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: rgb(12, 161, 137);
+   
+}
+.columna-1 h2 {
+    margin-bottom: 5%;
+    font-size: 2rem;
+    text-align: center;
+    margin-right: 7%;
+}
+.colum-4{
+    overflow: hidden;
+    width: 100%;
+    
+    
+}
+.col-img {
+    float: left;
+    margin-right: 2%;
+    padding: 1%;
+    background: rgb(219, 9, 114);
+    
+}
+.colum-4 .col-img{
+    width: 19.25%;
+}
+/*eliminamos el margin 2% para que encaje*/
+.colum-4 .col-img:nth-child(4n){
+    margin-right: 0;
+}
+.filas {
+    padding-top: 2%;
+}
+
